@@ -1,0 +1,13 @@
+[
+  {
+        "name": "fpv",
+        "movementType": "Land",
+        "uniques": [
+            "May travel on Water tiles without embarking",
+            "All tiles cost 1 movement",
+            "Can pass through impassable tiles",
+            "Self-destructs when attacking",
+            "Cannot be intercepted"
+        ]
+    }
+]
