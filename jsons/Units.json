@@ -111,7 +111,7 @@
 
     {
         "name": "Sapper",
-        "unitType": "Gunpoweder",
+        "unitType": "Gunpowder",
         "strength": 35,
         "movement": 3,
         "uniques": [
@@ -125,7 +125,7 @@
 
     {
         "name": "Moto-Sapper",
-        "unitType": "Gunpoweder",
+        "unitType": "Gunpowder",
         "strength": 50,
         "movement": 6,
         "uniques": [
