@@ -11,7 +11,7 @@
         "Enables Open Borders agreements",
         "Enables Defensive Pacts",
         "Reveals the entire map",
-        "[+20]% [Production] [in cities connected via railroad]"
-        
+        "[+20]% [Production] [in cities connected via railroad]",
+        //"[This Unit] takes [30] damage <upon entering a [minefield] tile>"
     ]
 }

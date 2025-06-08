@@ -5,7 +5,7 @@
         "movement": 3,
         "strength": 160,
         "rangedStrength": 160,
-        "range": 5,
+        
     "uniques": [
       "[+50]% Strength <vs [Armored] units>",
       "No defensive terrain bonus",
@@ -13,8 +13,8 @@
       "Never appears as a Barbarian unit",
       "[-100]% maintenance costs",
       "Self-destructs when attaking",
-      "[-75]% Strength <vs cities> <when attacking>",
-      "[-75]% Strength <when fighting in [Rough terrain] tiles>"
+      "[-90]% Strength <vs cities> <when attacking>",
+      "[-80]% Strength <when fighting in [Rough terrain] tiles>"
     ],
         "cost": 200,
         "attackSound": "missile",
@@ -84,6 +84,7 @@
         "interceptRange": 3,
         "strength": 60,
         "cost": 500,
+        "requiredResource": "Oil",
         "requiredTech": "Ballistics",
         "upgradesTo": "Mobile SAM",
         "uniques": [
@@ -96,44 +97,45 @@
     },
 
   {
-        "name": "ATSPG",
+        "name": "AT-SPG",
         "unitType": "Armored",
-        "movement": 4,
+        "movement": 2,
         "strength": 50,
         "cost": 400,
+        "requiredResource": "Oil",
         "requiredTech": "Combined Arms",
         "uniques": [
             "[+250]% Strength <vs [Armored] units>",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "machinegun"
+        "attackSound": "tankshot"
     },
 
-    {
-        "name": "Sapper",
-        "unitType": "Gunpowder",
-        "strength": 35,
-        "movement": 3,
-        "uniques": [
-            "Can build ['minefield','Remove minefield'] improvements on tiles",
-            "Can build [Land] improvements on tiles",
-            "Automation is a primary action",
-            "Units ending their turn on this terrain take [-30] damage"
-        ],
-        "cost": 270
-    },
+    // {
+    //     "name": "Sapper",
+    //     "unitType": "Gunpowder",
+    //     "strength": 35,
+    //     "movement": 3,
+    //     "uniques": [
+    //         "Can build ['minefield','Remove minefield'] improvements on tiles",
+    //         "Can build [Land] improvements on tiles",
+    //         "Automation is a primary action",
+    //         "Units ending their turn on this terrain take [-30] damage"
+    //     ],
+    //     "cost": 270
+    // },
 
-    {
-        "name": "Moto-Sapper",
-        "unitType": "Gunpowder",
-        "strength": 50,
-        "movement": 6,
-        "uniques": [
-            "Can build ['minefield','Remove minefield'] improvements on tiles",
-            "Can build [Land] improvements on tiles",
-            "Automation is a primary action",
-            "Units ending their turn on this terrain take [-30] damage"
-        ],
-        "cost": 370
-    }
+    // {
+    //     "name": "Moto-Sapper",
+    //     "unitType": "Gunpowder",
+    //     "strength": 50,
+    //     "movement": 6,
+    //     "uniques": [
+    //         "Can build ['minefield','Remove minefield'] improvements on tiles",
+    //         "Can build [Land] improvements on tiles",
+    //         "Automation is a primary action",
+    //         "Units ending their turn on this terrain take [-30] damage"
+    //     ],
+    //     "cost": 370
+    // }
 ]
