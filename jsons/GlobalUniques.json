@@ -12,19 +12,6 @@
         "Enables Defensive Pacts",
         "Reveals the entire map",
         "[+20]% [Production] [in cities connected via railroad]"
-        // TODO: Implement the uniques below
-        // "[+20]% [Culture] [in all cities] <during a golden age>",
-        // "[+20]% [Production] [in all cities] <during a golden age>",
-
-        // "[+10]% growth [in all cities] <during We Love The King Day>",
-
-        // "Nullifies All Yield <while is in resistance>",
-
-        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
-        // "[-25]% [Culture] [in pupetted cities]"
-
         
-
-        // something something unit supply
     ]
 }
