@@ -1,68 +1,110 @@
 
 game.png
-size: 2048, 512
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 UnitIcons/AT-SPG
   rotate: false
-  xy: 4, 237
+  xy: 1664, 1854
   size: 279, 181
   orig: 279, 181
   offset: 0, 0
   index: -1
-UnitIcons/Heavy tank
+UnitIcons/FPV drone
   rotate: false
-  xy: 4, 4
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Light Anti-Aircraft tank
-  rotate: false
-  xy: 291, 193
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Light tank
-  rotate: false
-  xy: 524, 193
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Moto-Sapper
-  rotate: false
-  xy: 757, 193
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Motorized Infantry
-  rotate: false
-  xy: 990, 193
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Sapper
-  rotate: false
-  xy: 1223, 193
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Super heavy tank
-  rotate: false
-  xy: 1456, 193
+  xy: 1664, 1412
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/fpv
   rotate: false
-  xy: 1689, 193
+  xy: 1664, 1412
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/FPV drone operator
+  rotate: false
+  xy: 4, 703
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy tank
+  rotate: false
+  xy: 624, 470
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/ICBM
+  rotate: false
+  xy: 4, 83
+  size: 612, 612
+  orig: 612, 612
+  offset: 0, 0
+  index: -1
+UnitIcons/IRBM
+  rotate: false
+  xy: 1044, 1423
+  size: 612, 612
+  orig: 612, 612
+  offset: 0, 0
+  index: -1
+UnitIcons/Light Anti-Aircraft tank
+  rotate: false
+  xy: 624, 237
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Light tank
+  rotate: false
+  xy: 624, 4
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Moto-Sapper
+  rotate: false
+  xy: 812, 1190
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Motorized Infantry
+  rotate: false
+  xy: 812, 957
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/SPG
+  rotate: false
+  xy: 1664, 1645
+  size: 251, 201
+  orig: 251, 201
+  offset: 0, 0
+  index: -1
+UnitIcons/Sapper
+  rotate: false
+  xy: 1045, 1190
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/StarLink
+  rotate: false
+  xy: 4, 1511
+  size: 1032, 524
+  orig: 1032, 524
+  offset: 0, 0
+  index: -1
+UnitIcons/Super heavy tank
+  rotate: false
+  xy: 812, 724
   size: 225, 225
   orig: 225, 225
   offset: 0, 0

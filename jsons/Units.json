@@ -1,26 +1,26 @@
 [
-  {
-    "name": "fpv",
-    "unitType": "fpv",
-        "movement": 3,
-        "strength": 160,
-        "rangedStrength": 160,
+//   {
+//     "name": "fpv",
+//     "unitType": "fpv",
+//         "movement": 3,
+//         "strength": 160,
+//         "rangedStrength": 160,
         
-    "uniques": [
-      "[+50]% Strength <vs [Armored] units>",
-      "No defensive terrain bonus",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
-      "[-100]% maintenance costs",
-      "Self-destructs when attaking",
-      "[-90]% Strength <vs cities> <when attacking>",
-      "[-80]% Strength <when fighting in [Rough terrain] tiles>"
-    ],
-        "cost": 200,
-        "attackSound": "missile",
-        "requiredTech": "Mobile Tactics"
+//     "uniques": [
+//       "[+50]% Strength <vs [Armored] units>",
+//       "No defensive terrain bonus",
+//       "Unable to capture cities",
+//       "Never appears as a Barbarian unit",
+//       "[-100]% maintenance costs",
+//       "Self-destructs when attaking",
+//       "[-90]% Strength <vs cities> <when attacking>",
+//       "[-80]% Strength <when fighting in [Rough terrain] tiles>"
+//     ],
+//         "cost": 200,
+//         "attackSound": "missile",
+//         "requiredTech": "Mobile Tactics"
 
-  },
+//   },
 
    {
         "name": "Light tank",
@@ -111,6 +111,8 @@
         "attackSound": "tankshot"
     },
 
+    
+
     // {
     //     "name": "Sapper",
     //     "unitType": "Gunpowder",
@@ -138,4 +140,98 @@
     //     ],
     //     "cost": 370
     // }
+
+
+
+    {
+        "name": "FPV drone",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 130,
+        "rangedStrength": 155,
+        "range": 4,
+        "cost": 100,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "[+50]% Strength <vs [Armored] units>",                   
+            "[-100]% maintenance costs",
+            "Self-destructs when attaking",
+            "[-90]% Strength <vs cities> <when attacking>",
+            "[-80]% Strength <when fighting in [Rough terrain] tiles>"
+        ],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "FPV drone operator",
+        "unitType": "Drone operator",
+        "movement": 5,
+        "strength": 70,
+        "cost": 350,
+        "requiredTech": "Electronics",
+        "uniques": [
+            "Cannot attack",
+            "Can carry [4] [FPV drone] units",
+            "[+3] Sight",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+
+    {
+        "name": "SPG",
+        "unitType": "Ranged Gunpowder",
+        "range": 2,
+        "movement": 2,
+        "strength": 50,
+        "rangedStrength": 90,
+        "cost": 400,
+        "requiredTech": "Combined Arms",
+        "uniques": [
+            "[+50]% Strength <vs [Gunpowder] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        
+        "attackSound": "machinegun"
+    },
+
+    {
+        "name": "ICBM",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 150,
+        "rangedStrength": 150,
+        "range": 20,
+        "cost": 500,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "IRBM",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 150,
+        "rangedStrength": 150,
+        "range": 14,
+        "cost": 380,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "StarLink",
+        "unitType": "Satellites",
+        "movement": 1,
+        "strength": 99999,
+        "cost": 1200,
+        "requiredTech": "Satellites",
+        "uniques": [
+            "Cannot attack",
+            "[+15] Sight",
+            "Aircraft"
+        ],
+        "attackSound": "machinegun"
+    },
 ]
