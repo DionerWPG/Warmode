@@ -30,7 +30,7 @@
         "cost": 300,
         "requiredTech": "Combined Arms",
         "requiredResource": "Oil",
-        "upgradesTo": "Modern Armor",
+        "upgradesTo": "Mechanized Infantry",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -53,7 +53,8 @@
             "No defensive terrain bonus",
             "[+200]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[-200]% Strength <vs [Helicopter] units>"
+            "[-200]% Strength <vs [Helicopter] units>",
+            "Consumes [2] [Oil]"
         ],
         "attackSound": "tankshot"
     },
@@ -145,7 +146,7 @@
 
     {
         "name": "FPV drone",
-        "unitType": "Missile",
+        "unitType": "Drone",
         "movement": 1,
         "strength": 130,
         "rangedStrength": 155,
@@ -168,12 +169,13 @@
         "movement": 5,
         "strength": 70,
         "cost": 350,
-        "requiredTech": "Electronics",
+        "requiredTech": "Mobile Tactics",
         "uniques": [
             "Cannot attack",
             "Can carry [4] [FPV drone] units",
             "[+3] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            
         ]
     },
 
@@ -234,4 +236,422 @@
         ],
         "attackSound": "machinegun"
     },
+
+    {
+        "name": "Motorized Infantry",
+        "unitType": "Gunpowder",
+        "upgradesTo": "Mechanized Infantry",
+        "movement": 4,
+        "strength": 90,
+        "cost": 430,
+        "requiredTech": "Combustion",
+        "uniques": ["Never appears as a Barbarian unit"],
+        "promotions": ["Logistics"],
+        "attackSound": "shot"
+    },
+
+    {
+
+        "name": "Radar",
+        "unitType": "Satellites",
+        "movement": 0,
+        "strength": 99999,
+        "cost": 400,
+        "requiredTech": "Radar",
+        "uniques": [
+            "Cannot attack",
+            "Can see invisible [Submarine] units",
+            "Aircraft",
+            "[+5] Sight"
+            
+        ],
+        "attackSound": "machinegun"
+    },
+    
+    {
+        "name": "Electronic warfare system",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "interceptRange": 2,
+        "strength": 50,
+        "cost": 600,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "Cannot attack",
+            "[75]% chance to intercept air attacks",
+            "[+200]% Strength <vs [FPV drone] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+
+    //Russia
+
+    {
+        "name": "T-90M",
+        "unitType": "Armored",
+        "uniqueTo": "Russia",
+        "replaces": "Modern Armor",
+        "movement": 6,
+        "strength": 115,
+        "cost": 540,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "promotions": ["Tank-Mangal"],
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Consumes [1] [Aluminum]"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "T-34-85",
+        "unitType": "Armored",
+        "uniqueTo": "Russia",
+        "replaces": "Tank",
+        "movement": 6,
+        "strength": 85,
+        "cost": 435,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "IL-2",
+        "uniqueTo": "Russia",
+        "replaces": "Bomber",
+        "unitType": "Bomber",
+        "movement": 1,
+        "strength": 120,
+        "rangedStrength": 85,
+        "range": 10,
+        "cost": 450,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "upgradesTo": "Stealth Bomber",
+        "attackSound": "bombing"
+    },
+
+    {
+        "name": "Yak-9",
+        "uniqueTo": "Russia",
+        "replaces": "Fighter",
+        "unitType": "Fighter",
+        "movement": 1,
+        "strength": 50,
+        "rangedStrength": 65,
+        "range": 8,
+        "interceptRange": 8,
+        "cost": 425,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "upgradesTo": "Jet Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "machinegun"
+    },
+
+    {
+        "name": "Su-34",
+        "uniqueTo": "Russia",
+        "replaces":"Stealth Bomber",
+        "unitType": "Bomber",
+        "movement": 2,
+        "strength": 100,
+        "rangedStrength": 100,
+        "range": 24,
+        "cost": 540,
+        "requiredTech": "Stealth",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Damage taken from interception reduced by [100]%",
+            "Cannot be carried by [Carrier] units",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "bombing"
+    },
+
+    {
+        "name": "Su-57",
+        "uniqueTo": "Russia",
+        "replaces":"Jet Fighter",
+        "unitType": "Fighter",
+        "movement": 1,
+        "strength": 80,
+        "rangedStrength": 90,
+        "range": 14,
+        "interceptRange": 14,
+        "cost": 490,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "Damage taken from interception reduced by [25]%",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "jetgun"
+    },
+
+    {
+        "name": "Ka-52 'Alligator'",
+        "unitType": "Helicopter",
+        "uniqueTo": "Russia",
+        "replaces":"Helicopter Gunship",
+        "movement": 8,
+        "strength": 90,
+        "cost": 510,
+        "requiredTech": "Computers",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "[+225]% Strength <vs [Armored] units>",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Unable to capture cities",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+
+    {
+        "name": "Grad",
+        "unitType": "Siege",
+        "replaces": "Rocket Artillery",
+        "uniqueTo": "Russia",
+        "movement": 3,
+        "strength": 45,
+        "rangedStrength": 90,
+        "range": 2,
+        "cost": 485,
+        "requiredTech": "Rocketry",
+        "uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": [ "Indirect Fire"],
+        "attackSound": "artillery"
+    },
+
+    {
+        "name": "S-400",
+        "unitType": "Gunpowder",
+        "uniqueTo": "Russia",
+        "movement": 3,
+        "interceptRange": 3,
+        "strength": 80,
+        "cost": 510,
+        "requiredTech": "Rocketry",
+        "uniques": [
+            "[200]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Air] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "Oreshnik",
+        "uniqueTo": "Russia",
+        "replaces": "Guided Missile",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 130,
+        "rangedStrength": 175,
+        "range": 10,
+        "cost": 200,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "Kinzhal",
+        "uniqueTo": "Russia",
+        "replaces": "IRBM",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 165,
+        "rangedStrength": 150,
+        "range": 14,
+        "cost": 380,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-100]% maintenance costs", "Cannot be intercepted"],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "Sarmat",
+        "unitType": "Missile",
+        "uniqueTo": "Russia",
+        "replaces":"ICBM",
+        "movement": 1,
+        "strength": 150,
+        "rangedStrength": 200,
+        "range": 23,
+        "cost": 520,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "T-26",
+        "replaces":"Light tank",
+        "uniqueTo":"Russia",
+        "unitType": "Armored",
+        "movement": 8,
+        "strength": 70,
+        "cost": 300,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Mechanized Infantry",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+25]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "IS-2",
+        "replaces":"Heavy tank",
+        "uniqueTo":"Russia",
+        "unitType": "Armored",
+        "movement": 4,
+        "strength": 100,
+        "cost": 580,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+75]% Strength <vs [Land] units>",
+            "[+10]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "ZSU-37",
+        "replaces":"Light Anti-Aircraft tank",
+        "uniqueTo":"Russia",
+        "unitType": "Armored",
+        "movement": 5,
+        "interceptRange": 3,
+        "strength": 80,
+        "cost": 450,
+        "requiredResource": "Oil",
+        "requiredTech": "Ballistics",
+        "upgradesTo": "Mobile SAM",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Air] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+
+    {
+        "name": "Msta-S",
+        "replaces":"SPG",
+        "uniqueTo":"Russia",
+        "unitType": "Ranged Gunpowder",
+        "range": 3,
+        "movement": 2,
+        "strength": 75,
+        "rangedStrength": 90,
+        "cost": 410,
+        "requiredTech": "Combined Arms",
+        "uniques": [
+            "[+50]% Strength <vs [Gunpowder] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        
+        "attackSound": "machinegun"
+    },
+
+    {
+        "name": "Sprut-SD",
+        "replaces":"AT-SPG",
+        "uniqueTo":"Russia",
+        "unitType": "Armored",
+        "movement": 3,
+        "strength": 45,
+        "cost": 500,
+        "requiredResource": "Oil",
+        "requiredTech": "Combined Arms",
+        "promotions": ["Amphibious"],
+        "uniques": [
+            "May Paradrop up to [5] tiles from inside friendly territory",
+            "[+250]% Strength <vs [Armored] units>",
+            "Defense bonus when embarked",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "Robo-Putin clone",
+        "uniqueTo":"Russia",
+        "replaces":"Future Soldier",
+        "unitType": "Paratrooping",
+        "movement": 2,
+        "strength": 300,
+        "cost": 1000,
+        "requiredTech": "Nanotechnology",
+        "uniques": [
+            "May Paradrop up to [40] tiles from inside friendly territory",
+            "Never appears as a Barbarian unit",
+            "[+150]% Strength <vs [Air] units>",
+            "Defense bonus when embarked",
+            "Consumes [3] [Aluminum]",
+            "[75]% chance to intercept air attacks"
+        ],
+        "attackSound": "shot"
+    },
+    
+    //barbs
+
+    {
+        "name": "Eto Pizdec...",
+        "unitType": "Ranged Gunpowder",
+        "uniqueTo":"Barbarians",
+        "movement": 6,
+        "strength": 30,
+        "rangedStrength": 140,
+        "cost": 360,
+        "requiredTech": "Combined Arms",
+        "upgradesTo": "Helicopter Gunship",
+        "uniques": [
+            "[+200]% Strength <vs [Armored] units>",
+        ],
+        "attackSound": "machinegun"
+    },
+
+    
 ]

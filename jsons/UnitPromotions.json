@@ -1,0 +1,64 @@
+[
+    
+
+    {
+        "name": "More ammunition I",
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "unitTypes": ["Drone"]
+    },
+    {
+        "name": "More ammunition II",
+        "prerequisites": ["More ammunition I"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "unitTypes": ["Drone"]
+    },
+    {
+        "name": "More ammunition III",
+        "prerequisites": ["More ammunition II"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "unitTypes": ["Drone"]
+    },
+    {
+        "name": "Management Lessons I",
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+        "unitTypes": ["Drone"]
+    },
+    {
+        "name": "Management Lessons II",
+        "prerequisites": ["Management Lessons I"],
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+        "unitTypes": ["Drone"]
+    },
+    {
+        "name": "Management Lessons III",
+        "prerequisites": ["Management Lessons II"],
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+        "[+20]% Strength <vs cities> <when attacking>"
+        ],
+        "unitTypes": ["Drone"]
+    },
+    {
+        "name": "Unavailable frequency",
+        "prerequisites": ["Management Lessons II", "More ammunition II"],
+        "uniques": [
+            "Cannot be intercepted"
+        ],
+        "unitTypes": ["Drone"]
+    },
+
+    {
+        "name": "Fiber optic",
+        "prerequisites": ["More ammunition III", "Management Lessons III"],
+        "uniques": ["[+3] Range", "[+3] Sight"],
+        "unitTypes": ["Drone"]
+    },
+
+    {
+        "name": "Tank-Mangal",
+        "prerequisites": ["Cover II"],
+        "uniques": ["[+90]% Strength <vs [Drone] units>"],
+        "unitTypes": ["Armored"]
+    }
+
+
+]
