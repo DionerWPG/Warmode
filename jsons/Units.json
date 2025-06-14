@@ -655,6 +655,7 @@
         "cost": 200,
         "requiredTech": "Electronics",
         "uniques":[
+            "Can be purchased with [Gold] [in all cities]",
             "[+40]% Strength <after discovering [Nuclear Fusion]>"
         ],
         "attackSound": "shot"
@@ -855,7 +856,7 @@
         "strength": 100,
         "cost": 500,
         "requiredTech": "Combustion",
-        "uniques": ["Never appears as a Barbarian unit", "No movement cost to pillage", "May capture killed [Military] units",],
+        "uniques": ["Never appears as a Barbarian unit", "No movement cost to pillage", "May capture killed [Military] units"],
         "promotions": ["Logistics", "Quick Study"],
         "attackSound": "shot"
     },
