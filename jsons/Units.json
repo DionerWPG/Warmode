@@ -634,7 +634,208 @@
         ],
         "attackSound": "shot"
     },
+
+    //Germany
+
+    {
+        "name": "Leopard 2",
+        "unitType": "Armored",
+        "uniqueTo": "Germany",
+        "replaces": "Modern Armor",
+        "movement": 6,
+        "strength": 110,
+        "cost": 580,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "Consumes [2] [Aluminum]",
+            "[-10]% Strength <vs [FPV drone] units>"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "Panther",
+        "unitType": "Armored",
+        "uniqueTo": "Germany",
+        "replaces": "Tank",
+        "movement": 5,
+        "strength": 85,
+        "cost": 495,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "[+10]% Strength <vs [Armored] units>",
+            "[+10]% Strength <when attacking>"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "Junkers Ju 88",
+        "unitType": "Bomber",
+        "replaces":"Bomber",
+        "uniqueTo":"Germany",
+        "movement": 1,
+        "strength": 60,
+        "rangedStrength": 70,
+        "range": 13,
+        "cost": 450,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "uniques":[
+            "[+15]% Strength <vs [Land] units>"
+        ],
+        "upgradesTo": "Stealth Bomber",
+        "attackSound": "bombing"
+    },
+
+    {
+        "name": "Messerschmitt Bf.109",
+        "unitType": "Fighter",
+        "replaces": "Fighter",
+        "uniqueTo": "Germany",
+        "movement": 1,
+        "strength": 45,
+        "rangedStrength": 50,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 450,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "upgradesTo": "Jet Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+175]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "machinegun"
+    },
+
+    {
+        "name": "Nebelwerfer",
+        "unitType": "Siege",
+        "replaces": "Rocket Artillery",
+        "uniqueTo": "Germany",
+        "movement": 3,
+        "strength": 45,
+        "rangedStrength": 63,
+        "range": 3,
+        "cost": 500,
+        "requiredTech": "Rocketry",
+        "uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit",
+            "Adjacent enemy units ending their turn take [10] damage"
+        ],
+        "promotions": [ "Indirect Fire"],
+        "attackSound": "artillery"
+    },
+
+    {
+        "name": "Leopard",
+        "unitType": "Armored",
+        "replaces": "Light tank",
+        "uniqueTo": "Germany",
+        "movement": 8,
+        "strength": 60,
+        "cost": 300,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Mechanized Infantry",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+30]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+
+   {
+        "name": "Maus",
+        "replaces": "Super heavy tank",
+        "uniqueTo": "Germany",
+        "unitType": "Armored",
+        "movement": 1,
+        "strength": 175,
+        "cost": 1100,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "No defensive terrain bonus",
+            "[+200]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[-200]% Strength <vs [Helicopter] units>",
+            "Consumes [4] [Oil]",
+            "Consumes [2] [Aluminum]"
+        ],
+        "attackSound": "tankshot"
+    },
+
+  {
+        "name": "Tiger",
+        "unitType": "Armored",
+        "replaces": "Heavy tank",
+        "uniqueTo": "Germany",
+        "movement": 3,
+        "strength": 100,
+        "cost": 620,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+75]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "Consumes [2] [Oil]"
+        ],
+        "attackSound": "tankshot"
+    },
     
+    {
+        "name": "TAURUS",
+        "replaces": "Guided Missile",
+        "uniqueTo": "Germany",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 130,
+        "rangedStrength": 155,
+        "range": 12,
+        "cost": 300,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-100]% maintenance costs", "[+25]% Strength <vs cities> <when attacking>"],
+        "attackSound": "missile"
+    },
+
+    {
+        "name": "SS",
+        "unitType": "Gunpowder",
+        "replaces": "Motorized Infantry",
+        "uniqueTo": "Germany",
+        "upgradesTo": "Mechanized Infantry",
+        "movement": 4,
+        "strength": 105,
+        "cost": 500,
+        "requiredTech": "Combustion",
+        "uniques": ["Never appears as a Barbarian unit", "No movement cost to pillage", "May capture killed [Military] units",],
+        "promotions": ["Logistics", "Quick Study"],
+        "attackSound": "shot"
+    },
+
     //barbs
 
     {
@@ -651,7 +852,7 @@
             "[+200]% Strength <vs [Armored] units>",
         ],
         "attackSound": "machinegun"
-    },
+    }
 
     
 ]
