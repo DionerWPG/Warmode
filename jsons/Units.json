@@ -285,6 +285,17 @@
         "attackSound": "machinegun"
     },
 
+    {
+        "name": "Mechanized Infantry",
+        "unitType": "Gunpowder",
+        "movement": 4,
+        "strength": 120,
+        "cost": 450,
+        "requiredTech": "Mobile Tactics",
+        "uniques": ["Never appears as a Barbarian unit"],
+        "attackSound": "tankshot"
+    },
+
     //Russia
 
     {
@@ -635,6 +646,19 @@
         "attackSound": "shot"
     },
 
+    {
+        "name": "Schtrafniki",
+        "unitType": "Gunpowder",
+        "uniqueTo": "Russia",
+        "movement": 2,
+        "strength": 60,
+        "cost": 200,
+        "requiredTech": "Electronics",
+        "uniques":[
+            "[+40]% Strength <after discovering [Nuclear Fusion]>"
+        ],
+        "attackSound": "shot"
+    },
     //Germany
 
     {
@@ -828,7 +852,7 @@
         "uniqueTo": "Germany",
         "upgradesTo": "Mechanized Infantry",
         "movement": 4,
-        "strength": 105,
+        "strength": 100,
         "cost": 500,
         "requiredTech": "Combustion",
         "uniques": ["Never appears as a Barbarian unit", "No movement cost to pillage", "May capture killed [Military] units",],
