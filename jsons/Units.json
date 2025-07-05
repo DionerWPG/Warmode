@@ -44,7 +44,7 @@
         "name": "Super heavy tank",
         "unitType": "Armored",
         "movement": 1,
-        "strength": 150,
+        "strength": 100,
         "cost": 1000,
         "requiredTech": "Combined Arms",
         "requiredResource": "Oil",
@@ -54,7 +54,7 @@
             "[+200]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
             "[-200]% Strength <vs [Helicopter] units>",
-            "Consumes [2] [Oil]"
+            "Consumes [5] [Oil]"
         ],
         "attackSound": "tankshot"
     },
@@ -465,6 +465,7 @@
     {
         "name": "S-400",
         "unitType": "Gunpowder",
+        "replaces": "Mobile SAM",
         "uniqueTo": "Russia",
         "movement": 3,
         "interceptRange": 3,
@@ -633,7 +634,7 @@
         "unitType": "Paratrooping",
         "movement": 2,
         "strength": 300,
-        "cost": 1000,
+        "cost": 5000,
         "requiredTech": "Nanotechnology",
         "uniques": [
             "May Paradrop up to [40] tiles from inside friendly territory",
@@ -660,6 +661,127 @@
         ],
         "attackSound": "shot"
     },
+
+    {
+        "name": "PMC Wagner",
+        "unitType": "Gunpowder",
+        "uniqueTo": "Russia",
+        "movement": 2,
+        "strength": 110,
+        "cost": 325,
+        "requiredTech": "Mobile Tactics",
+        "promotions":["Quick Study", "Logistics","Ignore terrain cost","Great Generals II","Charge","Heavy Charge","Leadership"],
+        "uniques":[
+            "Can be purchased with [Gold] [in all cities]",
+            "Mercenary",
+            "Unbuildable"
+        ],
+        "attackSound": "shot"
+    },
+
+    {
+        "name": "Soviet Union Type",
+        "unitType": "Ranged Water",
+        "uniqueTo": "Russia",
+        "replaces": "Battleship",
+        "movement": 4,
+        "strength": 65,
+        "rangedStrength": 65,
+        "range": 3,
+        "cost": 420,
+        "requiredResource": "Oil",
+        "requiredTech": "Electronics",
+        "upgradesTo": "Missile Cruiser",
+        "uniques": ["Never appears as a Barbarian unit"],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "shipguns"
+    },
+
+    {
+        "name": "Malutka Type",
+        "unitType": "Submarine",
+        "uniqueTo": "Russia",
+        "replaces": "Submarine",
+        "movement": 6,
+        "strength": 30,
+        "rangedStrength": 60,
+        "cost": 340,
+        "requiredTech": "Refrigeration",
+        "upgradesTo": "Nuclear Submarine",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "torpedo"
+    },
+
+    {
+        "name": "Type 9",
+        "unitType": "Melee Water",
+        "uniqueTo": "Russia",
+        "replaces": "Destroyer",
+        "movement": 5,
+        "strength": 55,
+        "interceptRange": 2,
+        "cost": 350,
+        "requiredTech": "Combustion",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[80]% chance to intercept air attacks",
+            "Can move after attacking",
+            "Withdraws before melee combat <with [80]% chance>",
+            "[+100]% Strength <vs [Submarine] units>"
+        ],
+        "attackSound": "shipguns"
+    },
+
+    {
+        "name": "Moskva",
+        "unitType": "Ranged Water",
+        "uniqueTo": "Russia",
+        "replaces": "Missile Cruiser",
+        "movement": 7,
+        "strength": 80,
+        "rangedStrength": 100,
+        "range": 3,
+        "interceptRange": 2,
+        "cost": 500,
+        "requiredTech": "Robotics",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+15]% Strength bonus for [{Military} {Air}] units within [2] tiles",
+            "Can carry [3] [Missile] units",
+            "Never appears as a Barbarian unit",
+            "[+15]% Strength <vs [Submarine] units>"
+        ],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "shipguns"
+    },
+
+    {
+        "name": "Borey-A",
+        "unitType": "Submarine",
+        "uniqueTo": "Russia",
+        "replaces": "Nuclear Submarine",
+        "movement": 6,
+        "strength": 60,
+        "range": 3,
+        "rangedStrength": 90,
+        "cost": 510,
+        "requiredTech": "Telecommunications",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "[+2] Sight",
+            "Can carry [3] [Missile] units",
+            "Never appears as a Barbarian unit",
+            "Invisible to adjacent units"
+        ],
+        "attackSound": "torpedo"
+    },
+
     //Germany
 
     {
@@ -861,10 +983,28 @@
         "attackSound": "shot"
     },
 
+    {
+        "name": "Bismark",
+        "unitType": "Ranged Water",
+        "replaces": "Battleship",
+        "uniqueTo": "Germany",
+        "movement": 6,
+        "strength": 70,
+        "rangedStrength": 70,
+        "range": 3,
+        "cost": 495,
+        "requiredResource": "Oil",
+        "requiredTech": "Electronics",
+        "upgradesTo": "Missile Cruiser",
+        "uniques": ["Never appears as a Barbarian unit"],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "shipguns"
+    },
+
     //barbs
 
     {
-        "name": "Eto Pizdec...",
+        "name": "Illegal migrant",
         "unitType": "Ranged Gunpowder",
         "uniqueTo":"Barbarians",
         "movement": 6,

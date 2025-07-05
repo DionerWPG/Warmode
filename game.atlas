@@ -4,283 +4,317 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Eto Pizdec...
-  rotate: false
-  xy: 4, 4
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 UnitIcons/AT-SPG
   rotate: false
-  xy: 1757, 1846
+  xy: 1742, 223
   size: 279, 181
   orig: 279, 181
   offset: 0, 0
   index: -1
 UnitIcons/Sprut-SD
   rotate: false
-  xy: 1757, 1846
+  xy: 1742, 223
   size: 279, 181
   orig: 279, 181
   offset: 0, 0
   index: -1
+UnitIcons/Borey-A
+  rotate: false
+  xy: 812, 176
+  size: 500, 207
+  orig: 500, 207
+  offset: 0, 0
+  index: -1
 UnitIcons/Electronic warfare system
   rotate: false
-  xy: 328, 92
+  xy: 328, 35
   size: 314, 160
   orig: 314, 160
   offset: 0, 0
   index: -1
 UnitIcons/FPV drone
   rotate: false
-  xy: 1757, 1613
+  xy: 1811, 1522
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/fpv
   rotate: false
-  xy: 1757, 1613
+  xy: 1811, 1522
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/FPV drone operator
   rotate: false
-  xy: 4, 695
+  xy: 4, 203
   size: 800, 800
   orig: 800, 800
   offset: 0, 0
   index: -1
 UnitIcons/Grad
   rotate: false
-  xy: 1432, 759
+  xy: 1692, 1274
   size: 272, 185
   orig: 272, 185
   offset: 0, 0
   index: -1
 UnitIcons/Nebelwerfer
   rotate: false
-  xy: 1432, 759
+  xy: 1692, 1274
   size: 272, 185
   orig: 272, 185
   offset: 0, 0
   index: -1
 UnitIcons/ICBM
   rotate: false
-  xy: 1044, 1127
+  xy: 812, 391
   size: 612, 612
   orig: 612, 612
   offset: 0, 0
   index: -1
 UnitIcons/Sarmat
   rotate: false
-  xy: 1044, 1127
+  xy: 812, 391
   size: 612, 612
   orig: 612, 612
   offset: 0, 0
   index: -1
 UnitIcons/IRBM
   rotate: false
-  xy: 812, 507
+  xy: 1432, 412
   size: 612, 612
   orig: 612, 612
   offset: 0, 0
   index: -1
 UnitIcons/Kinzhal
   rotate: false
-  xy: 812, 507
+  xy: 1432, 412
   size: 612, 612
   orig: 612, 612
   offset: 0, 0
   index: -1
 UnitIcons/IS-2
   rotate: false
-  xy: 1664, 1380
+  xy: 1320, 4
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Tiger
   rotate: false
-  xy: 1664, 1380
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Ka-52 'Alligator'
-  rotate: false
-  xy: 1664, 1147
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Leopard
-  rotate: false
-  xy: 1742, 914
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Light tank
-  rotate: false
-  xy: 1742, 914
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/T-26
-  rotate: false
-  xy: 1742, 914
+  xy: 1320, 4
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Leopard 2
   rotate: false
-  xy: 4, 93
+  xy: 4, 36
   size: 316, 159
   orig: 316, 159
   offset: 0, 0
   index: -1
 UnitIcons/T-90M
   rotate: false
-  xy: 4, 93
+  xy: 4, 36
   size: 316, 159
   orig: 316, 159
   offset: 0, 0
   index: -1
-UnitIcons/Light Anti-Aircraft tank
+UnitIcons/Moskva
   rotate: false
-  xy: 1712, 681
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/ZSU-37
-  rotate: false
-  xy: 1712, 681
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Maus
-  rotate: false
-  xy: 1691, 448
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Super heavy tank
-  rotate: false
-  xy: 1691, 448
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Moto-Sapper
-  rotate: false
-  xy: 652, 274
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
-UnitIcons/Motorized Infantry
-  rotate: false
-  xy: 885, 274
-  size: 225, 225
-  orig: 225, 225
+  xy: 1098, 1755
+  size: 820, 277
+  orig: 820, 277
   offset: 0, 0
   index: -1
 UnitIcons/Msta-S
   rotate: false
-  xy: 1432, 550
+  xy: 1692, 1065
   size: 251, 201
   orig: 251, 201
   offset: 0, 0
   index: -1
 UnitIcons/SPG
   rotate: false
-  xy: 1432, 550
+  xy: 1692, 1065
   size: 251, 201
   orig: 251, 201
   offset: 0, 0
   index: -1
-UnitIcons/Oreshnik
-  rotate: false
-  xy: 812, 1264
-  size: 218, 231
-  orig: 218, 231
-  offset: 0, 0
-  index: -1
-UnitIcons/TAURUS
-  rotate: false
-  xy: 812, 1264
-  size: 218, 231
-  orig: 218, 231
-  offset: 0, 0
-  index: -1
-UnitIcons/Panther
-  rotate: false
-  xy: 652, 587
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/T-34-85
-  rotate: false
-  xy: 652, 587
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Radar
-  rotate: false
-  xy: 812, 1156
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Robo-Putin clone
-  rotate: false
-  xy: 1351, 248
-  size: 215, 251
-  orig: 215, 251
-  offset: 0, 0
-  index: -1
 UnitIcons/S-400
   rotate: false
-  xy: 1432, 952
+  xy: 1432, 237
   size: 302, 167
   orig: 302, 167
   offset: 0, 0
   index: -1
 UnitIcons/SS
   rotate: false
-  xy: 4, 260
+  xy: 1044, 1032
   size: 640, 427
   orig: 640, 427
   offset: 0, 0
   index: -1
-UnitIcons/Sapper
-  rotate: false
-  xy: 1118, 274
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
 UnitIcons/Schtrafniki
   rotate: false
-  xy: 1044, 1747
+  xy: 1098, 1467
   size: 705, 280
   orig: 705, 280
   offset: 0, 0
   index: -1
 UnitIcons/StarLink
   rotate: false
-  xy: 4, 1503
+  xy: 4, 1011
   size: 1032, 524
   orig: 1032, 524
+  offset: 0, 0
+  index: -1
+UnitIcons/Type 9
+  rotate: false
+  xy: 4, 1543
+  size: 1086, 489
+  orig: 1086, 489
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Eto Pizdec...
+  rotate: false
+  xy: 1367, 279
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+UnitIcons/Ka-52 'Alligator'
+  rotate: false
+  xy: 4, 243
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Leopard
+  rotate: false
+  xy: 4, 10
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Light tank
+  rotate: false
+  xy: 4, 10
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/T-26
+  rotate: false
+  xy: 4, 10
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Light Anti-Aircraft tank
+  rotate: false
+  xy: 237, 243
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/ZSU-37
+  rotate: false
+  xy: 237, 243
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Maus
+  rotate: false
+  xy: 237, 10
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Super heavy tank
+  rotate: false
+  xy: 237, 10
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Moto-Sapper
+  rotate: false
+  xy: 470, 243
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Motorized Infantry
+  rotate: false
+  xy: 470, 10
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Oreshnik
+  rotate: false
+  xy: 703, 4
+  size: 218, 231
+  orig: 218, 231
+  offset: 0, 0
+  index: -1
+UnitIcons/TAURUS
+  rotate: false
+  xy: 703, 4
+  size: 218, 231
+  orig: 218, 231
+  offset: 0, 0
+  index: -1
+UnitIcons/PMC Wagner
+  rotate: false
+  xy: 1159, 268
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Panther
+  rotate: false
+  xy: 1367, 368
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/T-34-85
+  rotate: false
+  xy: 1367, 368
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Radar
+  rotate: false
+  xy: 1475, 368
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Robo-Putin clone
+  rotate: false
+  xy: 936, 217
+  size: 215, 251
+  orig: 215, 251
+  offset: 0, 0
+  index: -1
+UnitIcons/Sapper
+  rotate: false
+  xy: 703, 243
+  size: 225, 225
+  orig: 225, 225
   offset: 0, 0
   index: -1
