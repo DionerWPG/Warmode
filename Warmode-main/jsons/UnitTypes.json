@@ -1,0 +1,38 @@
+[
+//   {
+//         "name": "fpv",
+//         "movementType": "Land",
+//         "uniques": [
+//             "May travel on Water tiles without embarking",
+//             "All tiles cost 1 movement",
+//             "Can pass through impassable tiles",
+//             "Self-destructs when attacking",
+//             "Cannot be intercepted",
+//             "Aircraft"
+//         ]
+//     },
+
+    {
+        "name": "Drone operator",
+        "movementType": "Land"
+    },
+
+    {
+        "name": "Drone",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+
+    {
+        "name": "Satellites",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "Can see over obstacles"]
+    },
+]
